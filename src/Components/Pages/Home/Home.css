@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;
+  padding: 120px;
+}
+
+.containerChild1 {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#img {
+  max-width: 100%;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #000;
+  box-shadow: 0px 0px 8px 5px #979797;
+}
+
+.home-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.home-name span:first-child {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.home-prof {
+  font-size: 2.33rem;
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 10px;
+}
+
+.home-prof span:last-child {
+  font-weight: bold;
+}
+
+.inLine {
+  display: inline;
+}
+
+.resume {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.resume:hover {
+  background-color: #0056b3;
+  transform: translateY(-5px) scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  #img {
+    display: none;
+  }
+
+ .resume {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerChild1 {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .home-name,
+  .home-prof {
+    text-align: center;
+  }
+
+  .resume {
+    justify-content: center;
+    margin: 0 auto 20px auto;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+
+  .home-prof {
+    display: inline;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  #img {
+    display: none;
+  }
+}
+
+/* Add animation keyframes */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.icon {
+  margin-top: 6px;
+  animation: bounce 2s infinite;
+}
