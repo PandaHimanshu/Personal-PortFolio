@@ -127,8 +127,8 @@ function Projects() {
 
   const projectTemplate = (project) => {
     return (
-      <div className="flex flex-col items-center bg-white rounded-lg shadow-lg p-4 m-2">
-        <img src={project.image} alt={project.heading} className="w-full h-54 object-cover rounded-t-lg" />
+      <div className="flex flex-col items-center bg-white rounded-lg shadow-lg p-3 m-2">
+        <img src={project.image} alt={project.heading} className="w-full h-[244px] object-cover rounded-t-lg" />
         <h3 className="text-xl font-semibold mt-4">{project.heading}</h3>
         <p className="text-gray-600 mt-2">{project.description}</p>
         <div className="flex gap-2 mt-2 icons">
