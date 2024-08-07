@@ -41,6 +41,7 @@ section {
   --hover-background: #e0e0e0;
   --hover-text-color: #0083b0;
   --menu-icon-color: #000000;
+  --bg-color:#fff;
 }
 
 .dark-theme {
@@ -50,6 +51,7 @@ section {
   --hover-background: #444444;
   --hover-text-color: #ffcc00;
   --menu-icon-color: #ffffff;
+  --bg-color:#0000;
 }
 
 body.light-theme {
@@ -61,4 +63,5 @@ body.dark-theme {
   background: var(--background-color);
   color: var(--text-color);
 }
+
 
