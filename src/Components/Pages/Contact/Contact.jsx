@@ -6,7 +6,22 @@ function Contact() {
       <section id="contact" className="min-h-screen py-12 flex items-center justify-center">
         <div className="container mx-auto p-8 flex flex-col items-center">
           <h1 className="text-4xl font-bold text-center mb-8">Contact Me</h1>
-          <form className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+          <form 
+          action="https://api.web3forms.com/submit" method="POST"
+          className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+          <input type="hidden" name="access_key" value="2f8f7012-c83c-471e-90be-539139ee1822"/>
+          <div className="mb-4">
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+                Name
+              </label>
+              <input
+                name='name'
+                type="text"
+                id="name"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                placeholder="Your Name"
+              />
+              </div>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
                 Email
