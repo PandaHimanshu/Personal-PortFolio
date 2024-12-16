@@ -19,7 +19,7 @@ function Home() {
             <div className='home-prof'>
               <span className='inLine'>I am a&nbsp;</span><span className='inLine'><Typewriter
                 options={{
-                  strings: ['Frontend Developer', 'Android Developer', 'JAVA Developer'],
+                  strings: ['Frontend Developer', 'Full stack Developer', 'JAVA Developer'],
                   autoStart: true,
                   loop: true,
                 }}

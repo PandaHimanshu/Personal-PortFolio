@@ -91,7 +91,7 @@ function Skills() {
                                 <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
                                 <circle className='path path-3' cx='100' cy='100' r='80'></circle>
                             </svg>
-                            <div className='percentage'>70%</div>
+                            <div className='percentage'>75%</div>
                             <div className='text'>Problem Solving</div>
                         </div>
 
@@ -100,7 +100,7 @@ function Skills() {
                                 <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
                                 <circle className='path path-4' cx='100' cy='100' r='80'></circle>
                             </svg>
-                            <div className='percentage'>60%</div>
+                            <div className='percentage'>85%</div>
                             <div className='text'>Teamwork</div>
                         </div>
 

@@ -18,7 +18,15 @@ function About() {
           />
         </div>
         <div className="text-lg text-justify p-4 shadow-lg rounded-lg border-4 border-blue-500">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe accusamus exercitationem blanditiis impedit commodi, incidunt, nihil illo est neque eveniet nesciunt dolorum culpa veniam facilis omnis debitis. Necessitatibus deserunt incidunt inventore rem nesciunt, a labore minus facilis excepturi fuga omnis autem. Quas vel id iusto eveniet doloribus aperiam hic iste reiciendis cumque at illum alias neque, magnam numquam explicabo tempora, accusantium voluptatum ex recusandae. Consequuntur mollitia eos quibusdam, ullam voluptatem asperiores sequi. Tempore accusamus cupiditate, provident, doloribus ea nihil aliquid aspernatur sequi et officia ex! Expedita reprehenderit facere ipsam soluta! Explicabo ex inventore eos pariatur excepturi! Quos quibusdam modi fuga?
+          <p className="mb-4">
+            Hello! I'm <span className="font-bold">Himanshu Shekhar Panda</span>, a passionate and driven full-stack developer currently in my final year of B.Tech in Computer Science and Engineering. Over the years, I've cultivated a strong foundation in both frontend and backend development, allowing me to build and deliver full-featured applications from concept to completion.
+          </p>
+          <p className="mb-4">
+            Creating efficient, user-friendly applications is what I love, and I’m always exploring new technologies and frameworks to enhance my skills. Each project I undertake is a new opportunity to solve real-world problems through code, and I bring a thoughtful, solution-oriented approach to every challenge.
+          </p>
+          <p>
+            Thank you for visiting my portfolio. I look forward to connecting with like-minded professionals and collaborating on exciting projects!
+          </p>
         </div>
       </div>
     </section>
